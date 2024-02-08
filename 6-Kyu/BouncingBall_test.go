@@ -59,12 +59,12 @@ func BouncingBall(h, bounce, window float64) int {
 	if bounce < 0 || bounce >= 1 {
 		return -1
 	}
-	visibility := 1
+	visibilityBall := 1
 	h = h * bounce
 	for h > window {
 		h = h * bounce
-		visibility += 2
+		visibilityBall += 2
 	}
 
-	return visibility
+	return visibilityBall
 }
