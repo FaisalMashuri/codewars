@@ -1,4 +1,4 @@
-package main
+package __Kyu
 
 import (
 	"github.com/stretchr/testify/assert"
